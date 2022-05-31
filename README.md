@@ -1,0 +1,1 @@
+# nkod-sk-registrace
