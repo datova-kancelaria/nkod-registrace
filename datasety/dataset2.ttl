@@ -35,9 +35,9 @@
     dcat:theme euroVoc:4512 ;
     dcat:spatialResolutionInMeters 12.0 ;
     dcat:temporalResolution "P1D"^^xsd:duration ;
-    dcat:distribution _:b2, _:b3 .
+    dcat:distribution <https://data.gov.sk/set/distribution/d7f74968-e75a-4977-a742-70418d3ee592/1>, <https://data.gov.sk/set/distribution/d7f74968-e75a-4977-a742-70418d3ee592/2> .
 
-_:b2 a dcat:Distribution ;
+<https://data.gov.sk/set/distribution/d7f74968-e75a-4977-a742-70418d3ee592/1> a dcat:Distribution ;
     dct:license <https://cc0.sk> ;
     dcat:accessURL <https://portal.cisjr.cz/pub/draha/mestske/JDF.zip> ;
     dcat:downloadURL <https://portal.cisjr.cz/pub/draha/mestske/JDF.zip> ;
@@ -48,13 +48,13 @@ _:b2 a dcat:Distribution ;
     dcat:packageFormat application:zip ;
     dct:title "JSON distribuce v ZIP soubrou"@sk, "JSON distribution in ZIP file"@en .
 
-_:b3 a dcat:Distribution ;
+<https://data.gov.sk/set/distribution/d7f74968-e75a-4977-a742-70418d3ee592/2> a dcat:Distribution ;
     dct:license <https://cc0.sk> ;
     dcat:accessURL <https://portal.cisjr.cz/sparql> ;
     dct:title "SPARQL endpoint pro jízdní řády"@sk, "SPARQL endpoint for timetables"@en ;
-    dcat:accessService _:b4 .
+    dcat:accessService <https://data.gov.sk/id/data-service/d7f74968-e75a-4977-a742-70418d3ee592/1> .
 
-_:b4 a dcat:DataService ;
+<https://data.gov.sk/id/data-service/d7f74968-e75a-4977-a742-70418d3ee592/1> a dcat:DataService ;
     dct:title "SPARQL endpoint pro jízdní řády"@sk, "SPARQL endpoint for timetables"@en ;
     dcat:endpointURL <https://portal.cisjr.cz/sparql> ;
     dcat:endpointDescription <https://portal.cisjr.cz/sparql> ;
