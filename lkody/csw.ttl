@@ -1,0 +1,19 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix nkod: <https://data.gov.sk/slovník/nkod/> .
+
+<https://data.gov.sk/set/catalog/240365d1-0292-45a8-9045-47acfd86e80c> a dcat:Catalog, nkod:CSWLkod ;
+    dct:title "My new catalog CSW"@en, "Můj nový katalog CSW"@sk ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Jakub Klímek"@sk ;
+        vcard:hasEmail <mailto:jakub.klimek@matfyz.cuni.cz>
+    ];
+    dct:publisher <https://data.gov.sk/id/legal-subject/42181810> ;
+    dcat:endpointURL <https://rpi.gov.sk/rpi_csw/service.svc/get> ;
+    foaf:homepage <https://rpi.gov.sk/> .
+
+<https://data.gov.sk/id/legal-subject/42181810> a foaf:Agent ;
+    foaf:name "Ministerstvo životného prostredia Slovenskej Republiky"@sk .
