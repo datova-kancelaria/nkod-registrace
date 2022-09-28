@@ -3,7 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
-@prefix lkod: <https://data.gov.sk/def/local-catalog-type/> .
+@prefix lkod: <https://data.gov.sk/def/local-catalog-types/> .
 
 <https://data.gov.sk/set/catalog/6bca8939-48df-4ec2-a9c6-2015579cc501> a dcat:Catalog, lkod:3 ;
     dct:title "My new catalog CKAN API"@en, "Můj nový katalog CKAN API"@sk ;
