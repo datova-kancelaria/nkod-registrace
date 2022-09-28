@@ -15,6 +15,3 @@
     dct:publisher <https://data.gov.sk/id/legal-subject/42181810> ;
     dcat:endpointURL <https://rpi.gov.sk/rpi_csw/service.svc/get> ;
     foaf:homepage <https://rpi.gov.sk/> .
-
-<https://data.gov.sk/id/legal-subject/42181810> a foaf:Agent ;
-    foaf:name "Ministerstvo životného prostredia Slovenskej Republiky"@sk .

@@ -73,6 +73,3 @@
     dcat:endpointURL <https://portal.cisjr.cz/sparql> ;
     dcat:endpointDescription <https://portal.cisjr.cz/sparql> ;
     dct:conformsTo <https://www.w3.org/TR/sparql11-protocol/> .
-
-<https://data.gov.sk/id/legal-subject/00699021> a foaf:Agent ;
-    foaf:name "Ministerstvo zahraničných vecí a európskych záležitostí SR"@sk .

@@ -15,6 +15,3 @@
     dct:publisher <https://data.gov.sk/id/legal-subject/00681156> ;
     dcat:endpointURL <https://raw.githubusercontent.com/jakubklimek/sk-lkod-1/main/catalog.ttl> ;
     foaf:homepage <https://github.com/jakubklimek/sk-lkod-1> .
-
-<https://data.gov.sk/id/legal-subject/00681156> a foaf:Agent ;
-    foaf:name "Ministerstvo práce, sociálnych vecí a rodiny SR"@sk .

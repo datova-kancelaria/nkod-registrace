@@ -15,6 +15,3 @@
     dct:publisher <https://data.gov.sk/id/legal-subject/00151866> ;
     dcat:endpointURL <https://data.mvcr.gov.cz/sparql> ;
     foaf:homepage <https://data.mvcr.gov.cz> .
-
-<https://data.gov.sk/id/legal-subject/00151866> a foaf:Agent ;
-    foaf:name "Ministerstvo vnútra SR"@sk .
