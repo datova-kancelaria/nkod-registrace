@@ -2,9 +2,10 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-@prefix nkod: <https://data.gov.sk/slovník/nkod/> .
 
-<https://data.gov.sk/set/catalog/4641ca76-999e-41de-a01b-b1f08926ee5b> a dcat:Catalog, nkod:DcatApSparql ;
+@prefix lkod: <https://data.gov.sk/def/local-catalog-type/> .
+
+<https://data.gov.sk/set/catalog/4641ca76-999e-41de-a01b-b1f08926ee5b> a dcat:Catalog, lkod:2 ;
     dct:title "My new catalog DCAT-AP SPARQL"@en, "Můj nový katalog DCAT-AP SPARQL"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
