@@ -13,5 +13,5 @@
         vcard:hasEmail <mailto:jakub.klimek@matfyz.cuni.cz>
     ];
     dct:publisher <https://data.gov.sk/id/legal-subject/00151866> ;
-    dcat:endpointURL <https://data.mvcr.gov.cz/sparql> ;
-    foaf:homepage <https://data.mvcr.gov.cz> .
+    dcat:endpointURL <https://sk-nkod.opendata.cz/vsparql> ;
+    foaf:homepage <https://github.com/jakubklimek/sk-lkod-sparql> .
