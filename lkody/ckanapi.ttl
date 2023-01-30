@@ -13,5 +13,5 @@
         vcard:hasEmail <mailto:jakub.klimek@matfyz.cuni.cz>
     ];
     dct:publisher <https://data.gov.sk/id/legal-subject/36038351> ;
-    dcat:endpointURL <https://opendata.praha.eu/api/3/action/package_list> ;
-    foaf:homepage <https://opendata.praha.eu> .
+    dcat:endpointURL <https://opendata.mzp.cz/api/3/action/package_list> ;
+    foaf:homepage <https://opendata.mzp.cz/> .
