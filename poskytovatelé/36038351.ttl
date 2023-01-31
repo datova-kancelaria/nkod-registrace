@@ -1,0 +1,9 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix ls: <https://data.gov.sk/def/ontology/legal-subject/> .
+@prefix subject: <https://data.gov.sk/id/legal-subject/> .
+@prefix type: <https://data.gov.sk/def/legal-form-type/> .
+
+subject:36038351 a foaf:Agent ;
+    foaf:name "LESY Slovenskej republiky, štátny podnik"@sk ;
+    ls:legalFormType type:382 .
