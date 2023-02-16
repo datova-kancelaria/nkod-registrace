@@ -11,7 +11,7 @@
 @prefix continent: <http://publications.europa.eu/resource/authority/continent/> .
 @prefix euroVoc: <http://eurovoc.europa.eu/> .
 
-@prefix law: <https://data.gov.sk/def/ontology/law/> .
+@prefix leg: <https://data.gov.sk/def/ontology/legislation/> .
 
 <https://data.gov.sk/set/2742a9d4-fea1-49c1-8800-ac563ad09a0c> a dcat:Dataset ;
     dct:title "Jízdní řády veřejné linkové dopravy"@sk, "Public transport timetables"@en;
@@ -41,11 +41,11 @@
     dcat:distribution <https://data.gov.sk/set/2742a9d4-fea1-49c1-8800-ac563ad09a0c/resource/1>, <https://data.gov.sk/set/2742a9d4-fea1-49c1-8800-ac563ad09a0c/resource/2> .
 
 <https://data.gov.sk/set/2742a9d4-fea1-49c1-8800-ac563ad09a0c/resource/1> a dcat:Distribution ;
-    law:termsOfUse [ a law:TermsOfUse ;
-                    law:authorsWorkType <https://data.gov.sk/def/authors-work-type/3> ;
-                    law:databaseProtectedBySpecialRightsType <https://data.gov.sk/def/codelist/database-creator-special-rights-type/2> ;
-                    law:originalDatabaseType <https://data.gov.sk/def/original-database-type/3> ;
-                    law:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ] ;
+    leg:termsOfUse [ a leg:TermsOfUse ;
+                    leg:authorsWorkType <https://data.gov.sk/def/authors-work-type/3> ;
+                    leg:databaseProtectedBySpecialRightsType <https://data.gov.sk/def/codelist/database-creator-special-rights-type/2> ;
+                    leg:originalDatabaseType <https://data.gov.sk/def/original-database-type/3> ;
+                    leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ] ;
     dcat:accessURL <https://portal.cisjr.cz/pub/draha/mestske/JDF.zip> ;
     dcat:downloadURL <https://portal.cisjr.cz/pub/draha/mestske/JDF.zip> ;
     dct:format filetype:ZIP ;
@@ -56,13 +56,13 @@
     dct:title "JSON distribuce v ZIP soubrou"@sk, "JSON distribution in ZIP file"@en .
 
 <https://data.gov.sk/set/2742a9d4-fea1-49c1-8800-ac563ad09a0c/resource/2> a dcat:Distribution ;
-    law:termsOfUse [ a law:TermsOfUse ;
-                    law:authorsWorkType <https://creativecommons.org/licenses/by/4.0/> ;
-                    law:authorName "Ministerstvo dopravy, Odbor veřejné dopravy"@sk ;
-                    law:databaseProtectedBySpecialRightsType <https://creativecommons.org/publicdomain/zero/1.0/> ;
-                    law:originalDatabaseType <https://creativecommons.org/licenses/by/4.0/> ;
-                    law:originalDatabaseAuthorName "Ministerstvo dopravy, Odbor veřejné dopravy"@sk ;
-                    law:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ] ;
+    leg:termsOfUse [ a leg:TermsOfUse ;
+                    leg:authorsWorkType <https://creativecommons.org/licenses/by/4.0/> ;
+                    leg:authorName "Ministerstvo dopravy, Odbor veřejné dopravy"@sk ;
+                    leg:databaseProtectedBySpecialRightsType <https://creativecommons.org/publicdomain/zero/1.0/> ;
+                    leg:originalDatabaseType <https://creativecommons.org/licenses/by/4.0/> ;
+                    leg:originalDatabaseAuthorName "Ministerstvo dopravy, Odbor veřejné dopravy"@sk ;
+                    leg:personalDataContainmentType <https://data.gov.sk/def/personal-data-occurence-type/2> ] ;
     dcat:accessURL <https://portal.cisjr.cz/sparql> ;
     dct:title "SPARQL endpoint pro jízdní řády"@sk, "SPARQL endpoint for timetables"@en ;
     dcat:accessService <https://data.gov.sk/id/egov/app-service/1234> .
