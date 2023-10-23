@@ -5,13 +5,13 @@
 
 @prefix lkod: <https://data.gov.sk/def/local-catalog-type/> .
 
-<https://data.gov.sk/set/catalog/4641ca76-999e-41de-a01b-b1f08926ee5b> a dcat:Catalog, lkod:2 ;
-    dct:title "My new catalog DCAT-AP SPARQL"@en, "Můj nový katalog DCAT-AP SPARQL"@sk ;
+<https://data.gov.sk/set/catalog/knowledgegraph> a dcat:Catalog, lkod:2 ;
+    dct:title "Znalosti.gov.sk Catalog"@en, "Katalóg Znalostného grafu SR"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
-        vcard:fn "Jakub Klímek"@sk ;
-        vcard:hasEmail <mailto:jakub.klimek@matfyz.cuni.cz>
+        vcard:fn "Miroslav Líška"@sk ;
+        vcard:hasEmail <mailto:miroslav.liska@mirri.gov.sk>
     ];
-    dct:publisher <https://data.gov.sk/id/legal-subject/00151866> ;
-    dcat:endpointURL <https://sk-nkod.opendata.cz/vsparql> ;
-    foaf:homepage <https://github.com/jakubklimek/sk-lkod-sparql> .
+    dct:publisher <https://data.gov.sk/id/legal-subject/50349287> ;
+    dcat:endpointURL <https://znalosti.gov.sk/sparql> ;
+    foaf:homepage <https://znalosti.gov.sk/sparqlView> .

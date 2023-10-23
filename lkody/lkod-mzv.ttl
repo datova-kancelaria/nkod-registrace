@@ -2,10 +2,9 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-
 @prefix lkod: <https://data.gov.sk/def/local-catalog-type/> .
 
-<https://data.gov.sk/set/catalog/fb1cb5b5-a961-4b5a-b0b4-2d1599677139> a dcat:Catalog, lkod:3 ;
+<https://opendata.mzv.sk/set/catalog/lkod> a dcat:Catalog, lkod:3 ;
     dct:title "Open data catalog of the Ministry of Foreign and European Affairs of the Slovak Republic"@en, "Katalóg otvorených dát Ministerstva zahraničných vecí a európskych záležitostí Slovenskej republiky"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
