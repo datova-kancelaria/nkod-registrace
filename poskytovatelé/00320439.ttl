@@ -6,4 +6,4 @@
 
 subject:00320439 a foaf:Agent ;
     foaf:name "Mesto Zvolen"@sk ;
-    ls:legalFormType type:382 .
+    ls:legalFormType type:801 .
