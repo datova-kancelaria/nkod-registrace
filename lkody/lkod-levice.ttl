@@ -4,7 +4,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix lkod: <https://data.gov.sk/def/local-catalog-type/> .
 
-<https://data.gov.sk/set/lkod/levice/katalog> a dcat:Catalog, lkod:1 ;
+<https://opendata.levice.sk/opendata/set/lkod> a dcat:Catalog, lkod:1 ;
     dct:title "Open Data Catalog of Levice municipality"@en, "Katalóg otvorených údajov mesta Levice"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
@@ -12,5 +12,5 @@
         vcard:hasEmail <mailto:opendata@levice.sk>
     ];
     dct:publisher <https://data.gov.sk/id/legal-subject/00307203> ;
-    dcat:endpointURL <https://data.gov.sk/set/lkod/levice/katalog> ;
+    dcat:endpointURL <https://opendata.levice.sk/opendata/set/lkod> ;
     foaf:homepage <https://www.levice.sk/> .
