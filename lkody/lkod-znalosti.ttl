@@ -7,6 +7,7 @@
 
 <https://data.gov.sk/set/catalog/knowledgegraph> a dcat:Catalog, lkod:2 ;
     dct:title "Znalosti.gov.sk Catalog"@en, "Katalóg Znalostného grafu SR"@sk ;
+    dct:description "Znalosti.gov.sk Catalog"@en, "Katalóg Znalostného grafu SR"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
         vcard:fn "Miroslav Líška"@sk ;

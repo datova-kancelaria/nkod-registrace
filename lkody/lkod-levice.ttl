@@ -6,6 +6,7 @@
 
 <https://opendata.levice.sk/opendata/set/lkod> a dcat:Catalog, lkod:1 ;
     dct:title "Open Data Catalog of Levice municipality"@en, "Katalóg otvorených údajov mesta Levice"@sk ;
+    dct:decription "Open Data Catalog of Levice municipality"@en, "Katalóg otvorených údajov mesta Levice"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
         vcard:fn "Mesto Levice"@sk ;

@@ -6,6 +6,7 @@
 
 <https://opendata.zvolen.sk/set/catalog/lkod> a dcat:Catalog, lkod:1 ;
     dct:title "Open Data Catalog of the City of Zvolen"@en, "Katalóg otvorených dát Mesta Zvolen"@sk ;
+    dct:description "Open Data Catalog of the City of Zvolen"@en, "Katalóg otvorených dát Mesta Zvolen"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
         vcard:fn "Mesto Zvolen"@sk ;

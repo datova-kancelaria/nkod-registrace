@@ -6,6 +6,7 @@
 
 <https://opendata.trnava.sk/opendata/set/lkod> a dcat:Catalog, lkod:1 ;
     dct:title "Open Data Catalog of Trnava municipality"@en, "Katalóg otvorených údajov mesta Trnava"@sk ;
+    dct:description "Open Data Catalog of Trnava municipality"@en, "Katalóg otvorených údajov mesta Trnava"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
         vcard:fn "Mesto Trnava"@sk ;

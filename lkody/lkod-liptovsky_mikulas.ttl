@@ -6,6 +6,7 @@
 
 <https://opendata.mikulas.sk/opendata/set/lkod> a dcat:Catalog, lkod:1 ;
     dct:title "Open Data Catalog of Liptovský Mikulas municipality"@en, "Katalóg otvorených údajov mesta Liptovský Mikuláš"@sk ;
+    dct:description "Open Data Catalog of Liptovský Mikulas municipality"@en, "Katalóg otvorených údajov mesta Liptovský Mikuláš"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
         vcard:fn "Mesto Liptovský Mikuláš"@sk ;
