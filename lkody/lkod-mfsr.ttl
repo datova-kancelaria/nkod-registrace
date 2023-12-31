@@ -1,0 +1,17 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix lkod: <https://data.gov.sk/def/local-catalog-type/> .
+
+<https://opendata.mfsr.sk/opendata/catalog/lkod> a dcat:Catalog, lkod:1 ;
+    dct:title "Open Data Catalog of the Ministry of Finance"@en, "Katalóg otvorených dát Ministerstva financií"@sk ;
+    dct:description "Open Data Catalog of the Ministry of Finance"@en, "Katalóg otvorených dát Ministerstva financií"@sk ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Ministerstvo financií"@sk ;
+        vcard:hasEmail <mailto:opendata@mfsr.sk>
+    ];
+    dct:publisher <https://data.gov.sk/id/legal-subject/00151742> ;
+    dcat:endpointURL <https://opendata.mfsr.sk/opendata/catalog/lkod> ;
+    foaf:homepage <https://opendata.mfsr.sk> .

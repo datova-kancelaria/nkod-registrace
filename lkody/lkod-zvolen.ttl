@@ -1,0 +1,17 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix lkod: <https://data.gov.sk/def/local-catalog-type/> .
+
+<https://opendata.zvolen.sk/set/catalog/lkod> a dcat:Catalog, lkod:1 ;
+    dct:title "Open Data Catalog of the City of Zvolen"@en, "Katalóg otvorených dát Mesta Zvolen"@sk ;
+    dct:description "Open Data Catalog of the City of Zvolen"@en, "Katalóg otvorených dát Mesta Zvolen"@sk ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Mesto Zvolen"@sk ;
+        vcard:hasEmail <mailto:kpk@zvolen.sk>
+    ];
+    dct:publisher <https://data.gov.sk/id/legal-subject/00320439> ;
+    dcat:endpointURL <https://opendata.zvolen.sk/set/catalog/lkod> ;
+    foaf:homepage <https://opendata.zvolen.sk/> .

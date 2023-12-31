@@ -5,8 +5,9 @@
 
 @prefix lkod: <https://data.gov.sk/def/local-catalog-type/> .
 
-<https://data.gov.sk/set/catalog/a95e876b-9a14-4fe4-89e5-f8ecfc881ee0> a dcat:Catalog, lkod:2 ;
-    dct:title "Knowledge graph of public administration data"@en, "Znalostný graf údajov verejnej správy"@sk ;
+<https://data.gov.sk/set/catalog/knowledgegraph> a dcat:Catalog, lkod:2 ;
+    dct:title "Znalosti.gov.sk Catalog"@en, "Katalóg Znalostného grafu SR"@sk ;
+    dct:description "Znalosti.gov.sk Catalog"@en, "Katalóg Znalostného grafu SR"@sk ;
     dcat:contactPoint [
         a vcard:Organization ;
         vcard:fn "Miroslav Líška"@sk ;
@@ -14,4 +15,4 @@
     ];
     dct:publisher <https://data.gov.sk/id/legal-subject/50349287> ;
     dcat:endpointURL <https://znalosti.gov.sk/sparql> ;
-    foaf:homepage <https://znalosti.gov.sk> .
+    foaf:homepage <https://znalosti.gov.sk/sparqlView> .

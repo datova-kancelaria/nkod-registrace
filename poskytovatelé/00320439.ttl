@@ -1,0 +1,9 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix ls: <https://data.gov.sk/def/ontology/legal-subject/> .
+@prefix subject: <https://data.gov.sk/id/legal-subject/> .
+@prefix type: <https://data.gov.sk/def/legal-form-type/> .
+
+subject:00320439 a foaf:Agent ;
+    foaf:name "Mesto Zvolen"@sk ;
+    ls:legalFormType type:801 .

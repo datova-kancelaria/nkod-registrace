@@ -1,0 +1,18 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+@prefix lkod: <https://data.gov.sk/def/local-catalog-type/> .
+
+<https://data.gov.sk/set/catalog/knowledgegraph> a dcat:Catalog, lkod:2 ;
+    dct:title "DataCube Catalog of the Statistical Office of Slovak Republic"@en, "DataCube - Katalóg Štatistického úradu Slovenskej republiky"@sk ;
+    dct:description "DataCube Catalog of the Statistical Office of Slovak Republic"@en, "DataCube - Katalóg Štatistického úradu Slovenskej republiky"@sk ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Kontaktná osoba"@sk ;
+        vcard:hasEmail <mailto:openadata@slovak.statistics.sk>
+    ];
+    dct:publisher <https://data.gov.sk/id/legal-subject/00166197> ;
+    dcat:endpointURL <https://datacubet.statistics.sk/rdf4j-workbench/repositories/SUSR/sparql> ;
+    foaf:homepage <https://datacube.statistics.sk/> .
