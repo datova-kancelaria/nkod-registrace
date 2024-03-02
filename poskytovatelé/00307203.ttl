@@ -4,6 +4,6 @@
 @prefix subject: <https://data.gov.sk/id/legal-subject/> .
 @prefix type: <https://data.gov.sk/def/legal-form-type/> .
 
-subject:50349287 a foaf:Agent ;
+subject:00307203 a foaf:Agent ;
     foaf:name "Mesto Levice"@sk ;
     ls:legalFormType type:801 .
